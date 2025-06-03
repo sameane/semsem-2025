@@ -1,4 +1,3 @@
-
 import CountdownTimer from '@/components/countdown-timer';
 import InspirationalQuote from '@/components/inspirational-quote';
 import GraduatingFriends from '@/components/graduating-friends';
@@ -6,7 +5,7 @@ import { Toaster } from '@/components/ui/toaster';
 import Image from 'next/image';
 
 export default function GraduationCountdownPage() {
-  const targetDate = "2025-06-04T00:00:00"; // June 4, 2025
+  const targetDate = "2025-06-04T11:00:00"; // أو أي تاريخ موجود حالياً
 
   return (
     <>

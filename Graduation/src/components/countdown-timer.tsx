@@ -1,4 +1,3 @@
-
 "use client";
 
 import React, { useState, useEffect, useCallback } from 'react';
@@ -124,3 +123,5 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
 };
 
 export default CountdownTimer;
+
+<CountdownTimer targetDate="2024-05-31T23:59:59" />
