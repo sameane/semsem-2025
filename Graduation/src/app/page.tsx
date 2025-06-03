@@ -5,7 +5,7 @@ import { Toaster } from '@/components/ui/toaster';
 import Image from 'next/image';
 
 export default function GraduationCountdownPage() {
-  const targetDate = "2025-06-04T11:00:00"; // أو أي تاريخ موجود حالياً
+  const targetDate = "2025-06-03T17:13:00"; // أو أي تاريخ موجود حالياً
 
   return (
     <>

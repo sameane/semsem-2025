@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game by AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-wrapper">
+        <div class="title-area">
+            <h1><span class="snake-word">Snake</span><span class="game-word"> game</span></h1>
+            <p class="ai-made">made by AI</p>
+        </div>
+
+        <div class="game-container">
+            <canvas id="gameCanvas"></canvas>
+            <div id="scoreDisplay" class="ui-box">Score: 0</div>
+            <div id="controlsHint" class="ui-box">Move: Mouse | Shockwave: Left-click</div>
+            
+            <div id="gameOverScreen" class="modal">
+                <div class="modal-content">
+                    <h2>Game Over</h2>
+                    <p id="finalScore">Your score: 0</p>
+                    <button id="playAgainButton">Play Again</button>
+                </div>
+            </div>
+        </div>
+
+        <p class="tagline">When you waste time, we benefit.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
